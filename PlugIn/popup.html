@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>FakeForReal Analyzer</title>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>FakeForReal</h1>
+    <a href="http://www.google.com", target="_blank">Better articles this way</a>
+    <a href="http://www.google.com" onclick=" return doClick(); return false;">Try Me!</a>
+
+    <script>
+    function doClick() {
+        switch (topic) {
+  case "vaccine":
+  window.location.href = "firstURLhere";
+    break;
+  case "chemtrail":
+  window.location.href = "firstURLhere";
+    break;
+  case "climate-change":
+  window.location.href = "firstURLhere";
+    break;
+  case "fluoride":
+  window.location.href = "firstURLhere";
+    break;
+  case "flat-earth":
+  window.location.href = "firstURLhere";
+    break;
+}
+        if (topic == "vaccine")
+            window.location.href = "firstURLhere";
+        else if (topic == "climate-change")
+        se if (topic == "chemtrails")
+            window.location.href = "firstURLhere";
+        else if (topic == "fluoride")
+            window.location.href = "firstURLhere";
+        else
+           window.location.href = "alternativeURLhere";
+    }
+    </script>
+
+  </body>
+</html>
