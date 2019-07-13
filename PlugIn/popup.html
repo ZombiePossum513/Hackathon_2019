@@ -1,18 +1,42 @@
-<!doctype html>
+<?php
+musk=0;
+if (musk == 0) {
+   header("Location: www.google.com");
+   exit;
+} else {
+   header("Location: www.google.com");
+   exit;
+}
+?>
+<?php
+// Date in the past
+header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
+header("Cache-Control: no-cache");
+header("Pragma: no-cache");
+?>
+
 <html>
   <head>
-    <title>FakeForReal Analyzer</title>
-    <script src="popup.js"></script>
+   	<title>FakeForReal Analyzer</title>
+	<script src="popup.js"></script>
+  <style type="text/css">
+  .sd {
+	font-size: 90px;
+}
+  .as {
+	color: #FFF;
+	background-color: #C00;
+}
+  </style>
   </head>
-  <body>
-    <h1>FakeForReal</h1>
-    {% if topic == "vaccine" %}<a href = "vaccine.html">  {% else %} <a href="www.google.com"> {% endif %}
-Try Me!</a>
-
-    <script>
-
-
-    </script>
-
+ <body>
+<h1 class="as"><strong>FakeForReal</strong></h1>
+ <h1><span class="sd">70%</span> </h1>
+ <h1>Reliable</h1>
+ <a href="https://www.bmj.com/content/340/bmj.c655.full", target="_blank" > Vaccines? Would you rather read this? </a>    </p>
+ <p>
+ 
+<a href="https://journals.sagepub.com/doi/full/10.1177/0002764213477097"> Climate change? Would you rather read this?</a>
+</p>
   </body>
 </html>
